@@ -37,10 +37,10 @@ Esta API foi desenvolvida como parte de um trabalho acadêmico de **Desenvolvime
 |------------|--------|-----------|
 | **Java** | 21 | Linguagem de programação |
 | **Spring Boot** | 3.5.5 | Framework principal |
-| **Spring Data JPA** | 3.5.5 | Persistência de dados |
-| **MySQL** | 8.0 | Banco de dados relacional |
+| **Spring Data JPA** | 3.5.5 | Persistência de dados (herda do Spring Boot) |
+| **MySQL Connector** | - | Driver MySQL (versão gerenciada pelo Spring Boot) |
 | **Maven** | - | Gerenciamento de dependências |
-| **Jakarta Persistence** | - | API de persistência |
+| **Jakarta Persistence** | - | API de persistência (herda do Spring Boot) |
 
 ---
 
@@ -49,7 +49,7 @@ Esta API foi desenvolvida como parte de um trabalho acadêmico de **Desenvolvime
 ### Pré-requisitos
 
 - ☕ Java 21 ou superior
-- 🗄️ MySQL 8.0 ou superior
+- 🗄️ MySQL (qualquer versão compatível)
 - 🔧 Maven 3.6 ou superior
 
 ### 1. Clone o repositório
