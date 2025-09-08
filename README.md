@@ -4,7 +4,7 @@
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.5-brightgreen)
 ![Java](https://img.shields.io/badge/Java-21-orange)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
 ![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-3.5.5-green)
 
 **Uma API RESTful completa para gerenciamento de tarefas desenvolvida com Spring Boot**
