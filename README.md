@@ -55,17 +55,18 @@ Esta API foi desenvolvida como parte de um trabalho acadêmico de **Desenvolvime
 ### 1. Clone o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/issaahr/task-management-api.git
 cd aulap
 ```
 
-### 2. Configure o banco de dados
+### 2. Configure o banco de dados (OPCIONAL)
 
-Crie um banco de dados MySQL:
+O banco de dados será criado automaticamente se não existir, mas você pode criar manualmente:
 
 ```sql
 CREATE DATABASE bd_mvc;
 ```
+> **Nota:** A configuração `createDatabaseIfNotExist=true` no `application.properties` cria o banco automaticamente.
 
 ### 3. Configure as credenciais
 
