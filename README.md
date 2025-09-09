@@ -66,6 +66,7 @@ O banco de dados será criado automaticamente se não existir, mas você pode cr
 ```sql
 CREATE DATABASE bd_mvc;
 ```
+
 > **Nota:** A configuração `createDatabaseIfNotExist=true` no `application.properties` cria o banco automaticamente.
 
 ### 3. Configure as credenciais
@@ -78,7 +79,11 @@ spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 ```
 
-### 4. Execute a aplicação
+### 4. Formato de Datas
+
+A API aceita datas no formato brasileiro `dd/MM/yyyy` (ex: `12/12/2025`). O Spring Boot converte automaticamente para o formato do banco (`YYYY-MM-DD`).
+
+### 5. Execute a aplicação
 
 ```bash
 # Compilar o projeto

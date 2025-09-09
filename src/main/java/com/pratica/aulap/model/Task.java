@@ -3,7 +3,7 @@ package com.pratica.aulap.model;
 import java.time.LocalDate;
 import java.util.Objects;
 
-import org.springframework.format.annotation.DateTimeFormat;
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -27,7 +27,7 @@ public class Task {
 
 	private String name;
 
-    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
+    @JsonFormat(pattern = "dd/MM/yyyy")
 	private LocalDate deadline;
 
 	private String assignee;
